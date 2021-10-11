@@ -1,1 +1,1 @@
-/github/workflow/status/:antoniodimariano/:/myprojct3/:Run Python Tests
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/antoniodimariano/myprojct3/Run%20Python%20Tests)
