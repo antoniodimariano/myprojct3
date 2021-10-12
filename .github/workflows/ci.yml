@@ -28,4 +28,4 @@ jobs:
         run : |
           pip install coveralls
           coverage run -m unittest tests/test_my_func.py
-          coverage --service=github
+          coveralls --service=github
