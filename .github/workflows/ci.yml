@@ -27,4 +27,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.COVERAPP_TOKEN }}
         run : |
           pip install coveralls
-          coverage run -m unittest tests/test_my_func.py --service=github
+          coverage run -m unittest tests/test_my_func.py
+          coverage --service=github
