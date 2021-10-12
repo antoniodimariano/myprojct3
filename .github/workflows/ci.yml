@@ -24,7 +24,6 @@ jobs:
       - name: Run tests with pytest
         run: python -m unittest tests/test_my_func.py
       - name: Coveralls
-        uses: coverallsapp/github-action@master
         run : coveralls --service=github
         with:
             github-token: ${{ secrets.COVERAPP_TOKEN }}
