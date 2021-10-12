@@ -9,5 +9,14 @@ class Test(unittest.TestCase):
         ret = myfunc('')
         self.assertEqual(ret,'')
 
+    def test_c_empty_string(self):
+        ret = myfunc(111)
+        self.assertEqual(ret,False)
+
+    def test_d_empty_string(self):
+        ret = myfunc('oaic')
+        self.assertEqual(ret,'ciao')
+
+
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main() #pragma no cover
