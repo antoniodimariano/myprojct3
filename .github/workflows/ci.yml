@@ -27,4 +27,4 @@ jobs:
           pip install coveralls
           coveralls --service=github
         env:
-            github-token: ${{ secrets.COVERAPP_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.COVERAPP_TOKEN }}
